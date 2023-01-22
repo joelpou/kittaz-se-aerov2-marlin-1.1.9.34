@@ -1,6 +1,6 @@
 # KITTAZ as TAZ5 with SE AeroV2 and Marlin v1.1.9.34
 
-This firmware modifies a Lulzbot KITTAZ to work as a TAZ5 using the [SE SingleExtruderAeroV2](https://lulzbot.com/store/lulzbot-se-tool-head-nickel-plated-copper-0-5-mm-kt-cp0136?ref=KT-CP0136#product-description) hotend with [Marlin v1.1.9.34](https://download.lulzbot.com/Software/Marlin/1.1.9.34/) which is last known version to work with KITTAZ (TAZ4) that features a [RAMBO v1.2g board](https://reprap.org/wiki/Rambo_v1.2).
+This firmware modifies a Lulzbot KITTAZ to work as a TAZ5 using the [SE SingleExtruderAeroV2](https://lulzbot.com/store/lulzbot-se-tool-head-nickel-plated-copper-0-5-mm-kt-cp0136?ref=KT-CP0136#product-description) hotend with [Marlin v1.1.9.34](https://download.lulzbot.com/Software/Marlin/1.1.9.34/) which is last known version to work with KITTAZ (TAZ4) that features a [RAMBo v1.2g board](https://reprap.org/wiki/Rambo_v1.2).
 
 # Resources
 
@@ -20,7 +20,7 @@ The source on this branch can compile firmware for the TAZ and Mini series, as w
 
 # Safety and warnings:
 
-**My RAMBO v1.2g X-Axis driver was damaged by previous owner** and had to [modify the firmware header file pins_RAMBO.h](https://3dprinting.stackexchange.com/questions/3925/how-to-switch-motor-outputs-and-use-e1-as-x-in-marlin-firmware) to swap E1 pinouts with X pinouts since I didn't want to buy a new RAMBO board and didn't care about the dual extruder configuration. If you use this repo you probably should use default commented values.
+**My RAMBo v1.2g X-Axis driver was damaged by previous owner** and had to [modify the firmware header file pins_RAMBO.h](https://3dprinting.stackexchange.com/questions/3925/how-to-switch-motor-outputs-and-use-e1-as-x-in-marlin-firmware) to swap E1 pinouts with X pinouts since I didn't want to buy a new RAMBo board and didn't care about the dual extruder configuration. If you use this repo you probably should use default commented values.
 
 **This repository may contain untested software.** It has not been extensively tested and may damage your printer and present other hazards. Use at your own risk. Do not operate your printer while unattended and be sure to power it off when leaving the room. Please consult the documentation that came with your printer for additional safety and warning information.
 
