@@ -4,7 +4,7 @@ This firmware modifies a Lulzbot KITTAZ to work as a TAZ5 using the [SingleExtru
 
 # Resources
 
-1. [How to mount SE AeroV2 tool head?](https://ohai.lulzbot.com/project/mount-adapter-installation-instructions-taz56/)
+1. [How to mount SE AeroV2 toolhead?](https://ohai.lulzbot.com/project/mount-adapter-installation-instructions-taz56/)
 2. [How to load filament to E3D Titan Aero Extruder?](https://www.youtube.com/watch?v=Etjmb84w3YU&ab_channel=IT-Works3D)
 3. [How to update and flash firmware with Lulzbot Cura?](https://ohai.lulzbot.com/project/flashing-firmware-through-cura-3620/firmware-flashing/)
 4. [Lulzbot Gitlab v1.1.9.34 repo](https://gitlab.com/lulzbot3d/marlin/-/tree/5f9c029d153c3cac2728ecbb04a5d45b27810733/)
@@ -24,11 +24,11 @@ The source on this branch can compile firmware for the TAZ and Mini series, as w
 
 **This repository may contain untested software.** It has not been extensively tested and may damage your printer and present other hazards. Use at your own risk. Do not operate your printer while unattended and be sure to power it off when leaving the room. Please consult the documentation that came with your printer for additional safety and warning information.
 
-# Compilation from the command line on Linux using "avr-gcc"
+# Bash compilation on Linux using "avr-gcc"
 
 Install [avrdude](https://web.engr.oregonstate.edu/~traylor/ece473/webpages/ubuntu_install.html). Run the "build-lulzbot-firmware.sh" from the top level directory. This will build the ".hex" files for every printer and toolhead combination. The ".hex" files will be saved in the "build" subdirectory. 
 
-The script will only build for printer Juniper_TAZ5 and CecropiaSilk_SingleExtruderAeroV2 tool head. Uncomment other printers/toolhead combos if using different.
+The script will only build for printer Juniper_TAZ5 and CecropiaSilk_SingleExtruderAeroV2 toolhead. Uncomment other printers/toolheads combos if using different.
 
 Note that I could only build using avr-gcc and didn't really have time to make platformio build work. Building with platformio gives me some compilation errors.
 
