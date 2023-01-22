@@ -1,6 +1,6 @@
 # KITTAZ as TAZ5 with SE AeroV2 and Marlin v1.1.9.34
 
-This firmware modifies a Lulzbot KITTAZ to work as a TAZ5 using the [SingleExtruderAeroV2](https://lulzbot.com/store/lulzbot-se-tool-head-nickel-plated-copper-0-5-mm-kt-cp0136?ref=KT-CP0136#product-description) hotend with [Marlin v1.1.9.34](https://download.lulzbot.com/Software/Marlin/1.1.9.34/) which is last known version to work with KITTAZ (TAZ4) that features a [RAMBO v1.2g board](https://reprap.org/wiki/Rambo_v1.2).
+This firmware modifies a Lulzbot KITTAZ to work as a TAZ5 using the [SE SingleExtruderAeroV2](https://lulzbot.com/store/lulzbot-se-tool-head-nickel-plated-copper-0-5-mm-kt-cp0136?ref=KT-CP0136#product-description) hotend with [Marlin v1.1.9.34](https://download.lulzbot.com/Software/Marlin/1.1.9.34/) which is last known version to work with KITTAZ (TAZ4) that features a [RAMBO v1.2g board](https://reprap.org/wiki/Rambo_v1.2).
 
 # Resources
 
